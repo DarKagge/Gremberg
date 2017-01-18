@@ -29,7 +29,7 @@ button:hover {
 .hidden {
   display: none; }
 
-.bg-head {
+header {
   background-color: #221e1f;
   min-height: 90px; }
 
@@ -66,6 +66,8 @@ button:hover {
   background-image: url("../img/bg-top.jpg");
   min-height: 576px;
   background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative; }
 
 .all-key {
@@ -96,6 +98,7 @@ button:hover {
 .head-button {
   position: absolute;
   bottom: 60px;
+  left: 0;
   text-align: center;
   width: 100%; }
   .head-button a {

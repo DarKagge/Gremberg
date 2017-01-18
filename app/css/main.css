@@ -452,6 +452,9 @@ body textarea:required:valid {
 .copyright {
   text-align: center; }
 
+.footer-bg {
+  background-color: #2c1919; }
+
 footer {
   margin-top: 32px;
   color: #fff;
@@ -470,8 +473,6 @@ footer {
     footer a:hover {
       color: #f45050;
       text-decoration: none; }
-  footer .footer-bg {
-    background-color: #2c1919; }
   footer h3 {
     font-family: MyriadProCond;
     font-size: 25px;
