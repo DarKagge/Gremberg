@@ -33,43 +33,558 @@ body textarea:required:valid{
 
 //Custom Styles Here
 
-footer{
-    background-color: #000000;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 11px;
-    padding-bottom: 2px;
-    ul{
-        margin-top: 19px;
-        float: left;
-        padding-left: 0;
-        padding-right: 0;
-        li{
-            float: left;
-            margin-right: 20px;
-            a{
-                text-decoration: none;
-                color: #616161;
-                font-size: 16px;
-            }
-            a:hover{
-                text-decoration: none;
-                color: #fff;
-            }
+.stock{
+    border-bottom: 2px solid #000;
+    position: relative;
+    text-align: center;
+    img{
+        z-index: 55;
+        position: absolute;
+        left: 4.2%;
+        top: -39%;
+    }
+    h2{
+        font-size: 34px;
+        margin: 6px 0 10px 147px;
+        font-family: MyriadProCond;
+        letter-spacing: 0.7px;
+        span{
+            font-family:MyriadProBoldCond;
+            font-size:36px;
+            color: #ff5b35;
         }
-    }
-    .gs{
-        float: right;
-        margin: 9px;
-        margin-right: 15px;
-        display: block;
-    }
-    .gs:visited, .gs:active{
-        text-decoration:none;
     }
 }
 
+.all-zags{
+    font-size:40px;
+    font-family: MyriadProBold;
+    text-align: center;
+    padding-top: 39px;
+    h2{
+        text-transform: uppercase;
+        line-height: 50px;
+    }
+    span{
+        color: #cdc53f;
+    }
+}
+.whwa-text{
+    padding: 10px 42px;
+    p{
+        font-size:24px;
+        padding: 6px 0 0 0;
+        line-height: 30px;
+    }
+}
+.download{
+    margin: 46px 0 20px 38px;
+    background-color: #4491cd;
+    font-size: 20px;
+    color: #fff;
+    padding: 4px 17px;
+    display: inline-block;
+    letter-spacing: -0.1px;
+    text-decoration: underline;
+    font-family:MyriadProBold;
+    &:hover{
+        background-color: #ff5b35;
+        color: #fff;
+    }
+}
 
+.all-works{
+    padding: 10px 29px;
+    margin-top: 47px;
+    background-color: #edecec;
+    margin-bottom: 25px;
+    div[class=work-item]:nth-child(3){
+         margin-right:0 ;
+     }
+    div:nth-child(7){
+        margin-right:0 ;
+    }
+}
+.work-item{
+    border: 2px solid #695f61;
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    max-width: 313px;
+    min-height: 297px;
+    margin-right: 8px;
+    text-align: center;
+    color: #050505;
+    font-size:15px;
+    p{
+        padding: 5px 10px 0 10px;
+
+        letter-spacing: 0.3px;
+        line-height: 17px;
+    }
+    a{
+        color: #050505;
+    }
+}
+.figure{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 37px 0;
+}
+
+
+.reviews-item{
+    font-family:MyriadProCond;
+    font-size:24px;
+    margin-bottom: 76px;
+    p{
+        margin-left: 69px;
+        line-height: 28px;
+        letter-spacing: 0;
+        padding-top: 5px;
+        padding-right: 75px;
+
+    }
+}
+.foto{
+    max-width: 321px;
+    width: 100%;
+    min-height: 235px;
+    background-position: center;
+    margin-left: 39px;
+}
+.all-reviews{
+    margin-top: 72px;
+    position: relative;
+}
+.all-reviews div[class*= reviews-item ]:nth-child(4){
+    margin-bottom: 0;
+
+}
+.suggestion div[class*= col-md-7] {
+    padding-right: 0px;
+}
+.suggestion{
+    position: absolute;
+    right: 30px;
+    z-index: 55;
+    bottom: 2.2%;
+    background-color: #eadac7;
+    border: 8px solid #d6b87d;
+    max-width: 775px;
+    width: 100%;
+    form{
+        text-align: center;
+        h2{
+            font-size:36px;
+            font-family:MyriadProCondIt;
+            padding-top: 10px;
+            line-height: 45px;
+        }
+        input{
+            display: inline-block;
+            width: 74%;
+            margin: 13px 0;
+            padding-left: 30px;
+            font-size:27px;
+            font-family:MyriadProCond;
+        }
+        p{
+            font-size:18px;
+            color: #d06464;
+            font-family: MyriadProBoldCond;
+        }
+        button{
+            color: #fff;
+            background-color: #d11a19;
+            font-family:MyriadProBoldCondIt;
+            font-size:30px;
+            display: inline-block;
+            width: 65%;
+            &:hover{
+                background-color: #4b84e3;
+            }
+        }
+        a{
+            width: 50%;
+            background-color: #b2adaa;
+            font-size:24px;
+            font-family:MyriadProBoldCond;
+            color: #fff;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+    }
+}
+.skidka{
+    min-height: 511px;
+    text-align: center;
+
+    li{
+        background-color: #fff;
+        font-size:27px;
+        color: #27a0d2;
+        display: inline-block;
+        padding: 0 5px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 40px;
+        margin-bottom: 16px;
+    }
+}
+.advantage{
+    margin-top: 39px;
+    background-color: #edecec;
+    padding: 0 40px;
+}
+
+.advantage-text{
+    span{
+        font-size: 25px;
+        font-family:MyriadProCondIt;
+        margin-top: 19px;
+        display: block;
+        color: #514d4b;
+    }
+    p{
+        color: #514d4b;
+        font-size:25.22px;
+        font-family:MyriadProBold;
+        line-height: 31px;
+    }
+    img{
+        margin-top: 27px;
+    }
+    *:last-child{
+        margin-top: 5px;
+        margin-bottom: 55px;
+    }
+}
+.context-marketing{
+    margin-top: 25px;
+}
+.timer{
+    background-color: #4b84e3;
+    max-width: 221px;
+    width: 100%;
+    height: 62px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+
+    span{
+        font-weight:bold;
+        font-family:MyriadProBoldCond;
+    }
+}
+.progress{
+    text-align: center;
+    margin-top: 25px;
+    p{
+        font-family:MyriadProBoldCondIt;
+        font-size:25px;
+        letter-spacing: -0.1px;
+    }
+    span{
+        color: #5894be;
+        padding-left: 5px;
+    }
+    h2{
+        font-family:MyriadProBold;
+        font-size:25px;
+        line-height: 29px;
+        padding-top: 5px;
+        letter-spacing: 0.1px;
+
+    }
+}
+
+.searchers{
+    text-align: center;
+    margin-top: 33px;
+    div{
+        border: 5px solid #eaedf2;
+        background-position: center;
+        display: inline-block;
+        max-width: 465px;
+        min-height: 311px;
+        width: 100%;
+        margin-right: 5px;
+        margin-left: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+}
+.advertising{
+    text-align: center;
+    margin-top: 25px;
+    p{
+        font-family:MyriadProBoldCond;
+        font-size:24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+    }
+    span{
+        color: #5894be;
+        text-transform: none;
+    }
+}
+.assistance{
+    background-color: #2c1919;
+    font-family:MyriadProBoldCondIt;
+    font-size:25px;
+    max-width: 940px;
+    margin: 43px auto;
+    color: #fff;
+    img{
+        float: left;
+    }
+}
+.assi-text{
+    text-align: center;
+    p{
+        padding-top: 35px;
+        line-height: 29px;
+
+    }
+    img{
+        float: none;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.result{
+    background-color: #edecec;
+}
+.title-result{
+    text-align: center;
+    margin-top: 28px;
+    font-size:40.35px;
+    h2{
+        text-transform: uppercase;
+        background-color: #fff;
+        display: inline-block;
+        width: 30%;
+        color: #cdc53f;
+        letter-spacing: 2.4px;
+        font-family:MyriadProBold;
+    }
+    h3{
+        background-color: #fff;
+        display: inline-block;
+        color: #5894be;
+        font-family:MyriadProBoldIt;
+        width: 70.1%;
+        line-height: 52px;
+    }
+}
+.result-item{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 31px;
+    ul{
+        margin: 17px 0 0 67px;
+    }
+    li{
+        text-align: left;
+        position: relative;
+        line-height: 31px;
+        font-family:MyriadProCondIt;
+        font-size:25px;
+        letter-spacing: -0.3px;
+        &:after{
+            position: absolute;
+            left: -28px;
+            top:0;
+            content: '';
+            background-image: url("../img/mark.png");
+            background-repeat: no-repeat;
+            width: 24px;
+            height: 25px;
+        }
+    }
+}
+.working{
+    margin-top: 24px;
+    text-align: center;
+}
+.h-working-itmes{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 199px;
+    max-width: 400px;
+    width: 100%;
+    font-family:MyriadProBoldCondIt;
+    font-size:25px;
+    float: left;
+    margin: 52px 39px 0 39px;
+    text-align: left;
+    p{
+        color: #342c2b;
+        padding-top: 43px;
+        line-height: 31px;
+        padding-left: 23px;
+        padding-bottom: 38px;
+    }
+}
+.h-working-itmes1{
+    margin: 52px 0px 0 100px;
+}
+.h-working-itmes_last{
+    margin: 25px auto;
+    display: inline-block;
+    text-align: center;
+    height: 197px;
+    background-repeat: no-repeat;
+    max-width: 320px;
+    position: relative;
+    float: none;
+    p{
+        padding-left: 0;
+        padding-top: 35px;
+    }
+}
+.sum-text{
+    text-align: center;
+    padding-top: 16px;
+    p{
+        font-size:35px;
+        font-family:MyriadProBoldCondIt;
+        letter-spacing: -1.2px;
+        line-height: 43px;
+    }
+    span{
+        color: #5894be;
+        letter-spacing: 0;
+
+    }
+    img{
+        margin: 15px auto;
+        display: inline-block;
+    }
+    b{
+        display: block;
+        font-size: 25px;
+        font-family:MyriadProBoldCond;
+        line-height: 31px;
+    }
+}
+.keys1{
+    margin: 0 auto !important;
+}
+.summation{
+    form{
+        background-color: #4d81d7;
+        padding-bottom: 17px;
+        text-align: center;
+        max-width: 460px;
+        width: 100%;
+        margin: 12px auto;
+        h2{
+            font-family:MyriadProBoldCond;
+            font-size:30px;
+            color: #fff;
+            padding-top: 10px;
+            line-height: 37px;
+        }
+        input{
+            display: inline-block;
+            width: 49.7%;
+            margin-top: 13px;
+            padding: 2px 30px;
+            font-family:MyriadProCondIt;
+            font-size:22px;
+            @include placeholder{
+                color: #292828;
+            }
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            padding: 0 33px;
+            background-color: #f45050;
+            color: #fff;
+            margin-top: 14px;
+            font-size:25px;
+            border-radius: 12px;
+            text-transform: uppercase;
+            font-family:MyriadProBoldCond;
+        }
+    }
+}
+.copyright{
+    text-align: center;
+}
+
+footer{
+    margin-top: 32px;
+    color: #fff;
+    text-align: center;
+    ul{
+        display: inline-block;
+    }
+    li{
+        float: left;
+    }
+    a{
+        font-size:20px;
+        font-family:MyriadProCondIt;
+        color: #fff;
+        padding-right: 8px;
+        display: block;
+        padding-left: 7px;
+        &:hover{
+            color: #f45050;
+            text-decoration: none;
+        }
+    }
+    .footer-bg{
+        background-color: #2c1919;
+    }
+    h3{
+        font-family:MyriadProCond;
+        font-size:25px;
+        padding-top: 21px;
+        line-height: 32px;
+
+    }
+    p{
+        font-size:25px;
+        display: inline-block;
+        font-family:MyriadProRegular;
+        position: relative;
+        padding: 5px 0 0 0;
+        &:after{
+            position: absolute;
+            content: '';
+            left: -24px;
+            top: 13px;
+            background-image: url("../img/phone.png");
+            width: 17px;
+            height: 28px;
+            background-repeat: no-repeat;
+        }
+    }
+}
+.border-line{
+    width: 65%;
+    background-color: #958a8a;
+    height: 3px;
+    margin: 25px auto;
+}
+
+
+.call-back{
+    a{
+        padding-right: 75px;
+        padding-left: 80px;
+        padding-top: 10px;
+    }
+}
 //ALWAYS END
 @import "media.scss";
 @import "sketches.scss";

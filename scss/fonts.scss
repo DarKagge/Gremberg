@@ -1,3 +1,12 @@
 @import "bourbon";
 
-@include font-face("RobotoRegular", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
+@include font-face("MyriadProBold", "../fonts/MyriadPro-Bold/MyriadPro-Bold", $file-formats: eot woff ttf);
+@include font-face("MyriadProBoldCondIt", "../fonts/MyriadPro-BoldCondIt/MyriadPro-BoldCondIt", $file-formats: eot woff ttf);
+@include font-face("MyriadProBoldCond", "../fonts/MyriadPro-BoldCond/MyriadPro-BoldCond", $file-formats: eot woff ttf);
+@include font-face("MyriadProBoldIt", "../fonts/MyriadPro-BoldIt/MyriadPro-BoldIt", $file-formats: eot woff ttf);
+@include font-face("MyriadProCond", "../fonts/MyriadPro-Cond/MyriadPro-Cond", $file-formats: eot woff ttf);
+@include font-face("MyriadProCondIt", "../fonts/MyriadPro-CondIt/MyriadPro-CondIt", $file-formats: eot woff ttf);
+@include font-face("MyriadProIt", "../fonts/MyriadPro-It/MyriadPro-It", $file-formats: eot woff ttf);
+@include font-face("MyriadProRegular", "../fonts/MyriadPro-Regular/MyriadPro-Regular", $file-formats: eot woff ttf);
+@include font-face("MyriadProSemibold", "../fonts/MyriadPro-Semibold/MyriadPro-Semibold", $file-formats: eot woff ttf);
+@include font-face("MyriadProSemiboldIt", "../fonts/MyriadPro-SemiboldIt/MyriadPro-SemiboldIt", $file-formats: eot woff ttf);

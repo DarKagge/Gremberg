@@ -1,21 +1,120 @@
+@import url(../libs/magnific-popup/dist/magnific-popup.css);
 body {
   font-size: 16px;
-  min-width: 275px;
+  min-width: 320px;
   position: relative;
   line-height: 1.6;
-  font-family: "RobotoRegular", sans-serif;
+  font-family: MyriadProRegular;
   overflow-x: hidden;
-  background-color: #fff; }
+  background-color: #fff;
+  color: #000; }
 
-body a {
+.inner {
+  max-width: 1020px;
+  margin: 0 auto; }
+
+a, button, input, textarea {
   text-decoration: none;
+  outline: 0;
+  border: 0;
   -webkit-transition: color 0.4s ease, background-color 0.4s ease, border-color 0.4s ease;
   transition: color 0.4s ease, background-color 0.4s ease, border-color 0.4s ease; }
+  a:focus, button:focus, input:focus, textarea:focus {
+    outline: 0;
+    border: 0; }
+
+button:hover {
+  cursor: pointer; }
 
 .hidden {
   display: none; }
 
-.wrapper {
-  width: 960px;
+.bg-head {
+  background-color: #221e1f;
+  min-height: 90px; }
+
+.title-head {
+  padding: 15px 0 0 73px;
+  color: #dadcde; }
+  .title-head h2 {
+    font-size: 50px;
+    font-family: MyriadProBold;
+    line-height: 33px; }
+  .title-head p {
+    font-family: MyriadProBoldCondIt;
+    font-size: 19px;
+    letter-spacing: 0.1px; }
+
+.logo {
+  text-align: center;
+  padding-top: 8px; }
+
+.telefon {
+  font-family: MyriadProBold;
+  color: #f1f4f6;
+  padding: 24px 0 0 63px; }
+  .telefon b {
+    font-size: 28px;
+    letter-spacing: -1.3px;
+    line-height: 20px;
+    display: block; }
+  .telefon p {
+    font-size: 17px;
+    letter-spacing: -0.7px; }
+
+.top-section {
+  background-image: url("../img/bg-top.jpg");
+  min-height: 576px;
+  background-position: center bottom;
+  position: relative; }
+
+.all-key {
+  text-align: center;
+  max-width: 561px;
   margin: 0 auto;
-  overflow: hidden; }
+  color: #fdfbfb; }
+
+.key {
+  background-color: #4491cd;
+  min-height: 61px; }
+  .key h1 {
+    font-family: MyriadProBold;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 22px 0 0 0; }
+
+.inf-key {
+  background-color: #fff;
+  min-height: 61px; }
+  .inf-key p {
+    color: #2a2527;
+    font-size: 24px;
+    font-family: MyriadProSemiboldIt;
+    line-height: 25px;
+    padding-top: 5px; }
+
+.head-button {
+  position: absolute;
+  bottom: 60px;
+  text-align: center;
+  width: 100%; }
+  .head-button a {
+    display: inline-block;
+    background-color: #ff5b35;
+    font-size: 25px;
+    color: #f1f4f6;
+    font-family: MyriadProBoldCondIt;
+    padding: 10px 29px;
+    text-transform: uppercase;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; }
+    .head-button a:hover {
+      text-decoration: none;
+      background-color: #4491cd; }
+
+.pixel {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -510px;
+  opacity: .4; }

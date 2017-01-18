@@ -1,16 +1,21 @@
 @import "bourbon";
 @import "vars.scss";
+@import "../libs/magnific-popup/dist/magnific-popup.css";
 
 body{
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
 	line-height: 1.6;
-	font-family: "RobotoRegular", sans-serif;
+	font-family: MyriadProRegular;
 	overflow-x: hidden;
 	background-color: #fff;
+	color: #000;
 }
-
+.inner{
+	max-width: 1020px;
+	margin: 0 auto;
+}
 a,button,input,textarea{
 	text-decoration: none;
 	outline: 0;
@@ -31,9 +36,110 @@ button{
 .hidden{
 	display: none;
 }
+.bg-head{
+	background-color: #221e1f;
+	min-height: 90px;
+}
+.title-head{
+	padding: 15px 0 0 73px;
+	color: #dadcde;
+	h2{
+		font-size:50px;
+		font-family: MyriadProBold;
+		line-height: 33px;
+	}
+	p{
+		font-family:MyriadProBoldCondIt;
+		font-size:19px;
+		letter-spacing: 0.1px;
 
-.wrapper{
-	width: 960px;
+	}
+}
+.logo{
+	text-align: center;
+	padding-top: 8px;
+}
+.telefon{
+	font-family:MyriadProBold;
+	color: #f1f4f6;
+	padding: 24px 0 0 63px;
+	b{
+		font-size:28px;
+		letter-spacing: -1.3px;
+		line-height: 20px;
+		display: block;
+
+
+	}
+	p{
+		font-size:17px;
+		letter-spacing: -0.7px;
+
+	}
+}
+.top-section{
+	background-image: url("../img/bg-top.jpg");
+	min-height: 576px;
+	background-position: center bottom;
+	position: relative;
+}
+
+.all-key{
+	text-align: center;
+	max-width: 561px;
 	margin: 0 auto;
-	overflow: hidden;
+	color: #fdfbfb;
+}
+
+.key{
+	background-color: #4491cd;
+	min-height: 61px;
+	h1{
+		font-family:MyriadProBold;
+		font-size: 36px;
+		text-transform: uppercase;
+		margin: 22px 0 0 0;
+	}
+
+}
+.inf-key{
+	background-color: #fff;
+	min-height: 61px;
+	p{
+		color: #2a2527;
+		font-size:24px;
+		font-family:MyriadProSemiboldIt;
+		line-height: 25px;
+		padding-top: 5px;
+	}
+}
+.head-button{
+	position: absolute;
+	bottom: 60px;
+	text-align: center;
+	width: 100%;
+	a{
+		display: inline-block;
+		background-color: #ff5b35;
+		font-size:25px;
+		color: #f1f4f6;
+		font-family:MyriadProBoldCondIt;
+		padding: 10px 29px;
+		text-transform: uppercase;
+		border-radius: 10px;
+		&:hover{
+			text-decoration: none;
+			background-color: #4491cd;
+		}
+	}
+}
+
+
+
+.pixel{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -510px;
+	opacity: .4;
 }
