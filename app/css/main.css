@@ -644,6 +644,17 @@ body .popup .error {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 991px) {
+  .suggestion div[class*=col-md-7] {
+    padding-right: 15px; }
+  .skidka ul {
+    padding-top: 25px; }
+  .skidka li {
+    margin-top: 0;
+    padding: 10px 10px;
+    margin: 30px 100px; }
+  .suggestion form input {
+    text-align: center;
+    padding-left: 0; }
   header {
     text-align: center; }
   .title-head {
@@ -749,7 +760,12 @@ body .popup .error {
   .popup input {
     width: 70%; }
   .popup textarea {
-    width: 70%; } }
+    width: 70%; }
+  .skidka li {
+    font-size: 5vw;
+    margin: 15px 23px; }
+  .skidka {
+    min-height: 300px; } }
 
 @media only screen and (max-width: 460px) {
   .mfp-close {
