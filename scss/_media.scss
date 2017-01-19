@@ -7,48 +7,305 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	.wrapper{
-		width: auto;
+@media only screen and (max-width : 1049px) {
+	.work-item{
+		margin-right: 7px;
 	}
-	.pad{
-		padding: 50px 5px !important;
+}
+@media only screen and (max-width : 1047px) {
+	.work-item{
+		margin-right: 6px;
 	}
-	footer{
+}
+@media only screen and (max-width : 1045px) {
+	.work-item{
+		margin-right: 5px;
+	}
+}
+@media only screen and (max-width : 1043px) {
+	.work-item{
+		margin-right: 4px;
+	}
+}
+@media only screen and (max-width : 1041px) {
+	.work-item{
+		margin-right: 3px;
+	}
+}
+
+@media only screen and (max-width : 1039px) {
+	.work-item{
+		margin-right: 2px;
+	}
+}
+@media only screen and (max-width : 1037px) {
+	.all-works{
 		text-align: center;
-		.wrapper{
-			width: auto;
-		}
-		ul{
-			float: none;
-			display: inline-block;
-			text-align: center;
-			li{
-				margin-bottom: 10px;
-				margin-right: 0;
-				float: none;
-			}
-		}
-		.gs{
-			float: none;
-			display: block;
-		}
+	}
+	body .work-item{
+		margin-bottom: 25px;
+		margin-right: 25px !important;
+		margin-left: 25px;
 	}
 }
+@media only screen and (max-width : 1007px){
+	.h-working-itmes{
+		margin: 52px 44px 0 44px;
+	}
 
+}
+@media only screen and (max-width : 1005px){
+	.h-working-itmes{
+		float: none;
+		margin: 20px auto;
+	}
+
+}
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 991px) {
+	header{
+		text-align: center;
+	}
+	.title-head{
+		padding: 20px 0;
+	}
+	.telefon{
+		padding: 20px 0;
+	}
+	.result-item{
+		img{
+			width: 100%;
+			padding: 0 30px;
+		}
+	}
+	.foto{
+		margin: 10px auto;
+	}
+	.h-working-itmes{
+		float: none;
+		margin: 20px auto;
+
+	}
+	.title-result h2{
+		width: inherit;
+		padding: 0 25px;
+	}
+	.reviews-item p{
+		padding: 0;
+		margin-left: 0;
+		text-align: center;
+	}
 
 }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-	.pad{
-		padding: 20px 5px !important;
+@media only screen and (max-width : 983px){
+	.searchers div{
+		margin-bottom: 25px;
 	}
-	// 100% ширина окна
-	// .fancybox-wrap{
-	// 	width: 100% !important;
-	// 	left: 0 !important;
-	// }
+}
+@media only screen and (max-width : 965px){
+	.assistance{
+		img{
+			float: none;
+			width: 100%;
+			height: 350px;
+		}
+	}
+	.assi-text{
+		p{
+			padding: 15px 0;
+		}
+		img{
+			width: auto;
+			height: auto;
+		}
+	}
+}
+@media only screen and (max-width : 936px){
+	.stock img{
+		position: relative;
+		margin: 10px auto;
+		left: auto;
+		top: auto;
+	}
+	.stock h2{
+		margin: 10px auto;
+
+	}
+}
+@media only screen and (max-width : 817px){
+	body .work-item{
+		margin: 20px auto !important;
+	}
+}
+@media only screen and (max-width : 760px){
+	.whwa-text{
+		padding: 10px 15px;
+	}
+}
+@media only screen and (max-width : 673px){
+  .call-back a{
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+}
+@media only screen and (max-width : 660px){
+	.title-result h3{
+		width: auto;
+		padding: 0 30px;
+	}
+}
+@media only screen and (max-width : 643px){
+  .call-back a{
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+@media only screen and (max-width : 620px){
+  .popup h2{
+    font-size:6vw;
+  }
+}
+@media only screen and (max-width : 611px){
+  footer li{
+    float: none;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width : 530px){
+	.summation form input{
+		width: 65%;
+	}
+}
+@media only screen and (max-width : 500px){
+   .whwa{
+     text-align: center;
+   }
+  .download{
+    margin: 20px auto;
+  }
+  .searchers div{
+    margin: 10px auto;
+    background-position: center;
+    background-size: 100%;
+  }
+}
+@media only screen and (max-width : 490px){
+	.title-result h3{
+		padding: 0 10px;
+		font-size:5vw;
+	}
+
+}
+@media only screen and (max-width : 480px){
+	.h-working-itmes {
+		height: 220px;
+		p{
+			padding: 40px 10px;
+		}
+
+	}
+  .popup input{
+    width: 70%;
+  }
+  .popup textarea{
+    width: 70%;
+  }
+}
+@media only screen and (max-width : 460px){
+  .mfp-close{
+    top: 5px;
+    right: 5px;
+  }
+}
+@media only screen and (max-width : 450px) {
+	.key{
+		h1{
+			font-size:5.7vw;
+			padding: 15px;
+		}
+	}
+	.searchers div{
+		margin: 0;
+	}
+	body .work-item{
+		img{
+			width: 100%;
+		}
+		margin: 25px auto !important;
+
+	}
+    .advantage{
+      padding: 0 10px;
+    }
+
+}
+@media only screen and (max-width : 440px){
+	.all-zags h2{
+		font-size:33px;
+	}
+}
+@media only screen and (max-width : 424px){
+	.stock{
+		h2{
+			font-size:7.7vw;
+		}
+	}
+}
+@media only screen and (max-width : 414px){
+  .popup input{
+    width: 80%;
+  }
+  .popup textarea{
+    width: 80%;
+  }
+}
+@media only screen and (max-width : 400px){
+  .advantage-text p{
+    font-size: 5vw;
+  }
+}
+@media only screen and (max-width : 390px){
+	.summation form input{
+		width: 80%;
+	}
+}
+@media only screen and (max-width : 380px){
+	.title-result h3{
+		font-size:5.7vw;
+	}
+}
+@media only screen and (max-width : 350px) {
+	.key{
+		h1{
+			font-size:7.7vw;
+
+		}
+	}
+	.title-result h3{
+		font-size:8vw;
+	}
+	.all-zags h2{
+		font-size:28px;
+	}
+  .mfp-close{
+    top: 0px;
+    right: 0x;
+  }
+  .popup input{
+    @include placeholder{
+      font-size: 8vw;
+    }
+  }
+  .popup textarea{
+    @include placeholder{
+      font-size:8vw;
+    }
+  }
+}
+@media only screen and (max-width : 339px){
+	.h-working-itmes{
+		p{
+			font-size:7vw;
+		}
+	}
 }

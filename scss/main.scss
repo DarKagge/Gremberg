@@ -98,7 +98,7 @@ body textarea:required:valid{
     margin-top: 47px;
     background-color: #edecec;
     margin-bottom: 25px;
-    div[class=work-item]:nth-child(3){
+    div[class^=work-item]:nth-child(3){
          margin-right:0 ;
      }
     div:nth-child(7){
@@ -256,6 +256,7 @@ body textarea:required:valid{
     }
     img{
         margin-top: 27px;
+        width: 100%;
     }
     *:last-child{
         margin-top: 5px;
@@ -273,7 +274,6 @@ body textarea:required:valid{
     text-align: center;
     margin: 0 auto;
     padding-top: 5px;
-
     span{
         font-weight:bold;
         font-family:MyriadProBoldCond;
@@ -386,6 +386,7 @@ body textarea:required:valid{
     text-align: center;
     margin-top: 45px;
     margin-bottom: 31px;
+
     ul{
         margin: 17px 0 0 67px;
     }
@@ -588,11 +589,69 @@ footer{
 
 .popup{
     background-color: #fbfaf6;
-    width: 70%;
+    max-width: 621px;
+    width: 100%;
+    padding: 10px 0;
     margin: 0 auto;
-    position: fixed;
+    position: relative;
     text-align: center;
+    h2{
+        font-family:MyriadProBoldCondIt;
+        font-size: 36px;
+        padding-top: 20px;
+        span{
+            color: #4491cd;
+        }
+    }
+    input{
+        width: 57%;
+        padding: 15px 0;
+        text-align: center;
+        border: 2px solid #000;
+        margin: 8px 0;
+        display: inline-block;
+        @include placeholder{
+            color: #a1a19e;
+            font-family:MyriadProBoldCondIt;
+            font-size:30px;
+        }
+    }
+    textarea{
+        width: 57%;
+        display: inline-block;
+        border: 2px solid #000;
+        text-align: center;
+        min-height: 136px;
+        margin-top: 8px;
+        @include placeholder{
+            color: #a1a19e;
+            padding-top: 40px;
+            font-family:MyriadProBoldCondIt;
+            font-size:30px;
+        }
+    }
+}
+.form-but{
+    display: block;
+    background-color: #ff5b35;
+    color: #fff;
+    font-size:25px;
+    font-family:MyriadProBoldCondIt;
+    border-radius: 12px;
+    text-transform: uppercase;
+    padding: 10px 55px;
+    margin: 15px auto;
+}
 
+.mfp-close-btn-in .mfp-close{
+    background-image: url("../img/close.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: transparent;
+}
+.mfp-close{
+    right: 17px;
+    top: 17px;
 }
 //ALWAYS END
 @import "media.scss";
