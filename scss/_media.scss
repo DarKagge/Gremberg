@@ -216,6 +216,9 @@
     top: 5px;
     right: 5px;
   }
+  .mfp-close:active{
+    top: 5px;
+  }
 }
 @media only screen and (max-width : 450px) {
 	.key{
@@ -232,8 +235,11 @@
 			width: 100%;
 		}
 		margin: 25px auto !important;
-
+      padding: 10px 0;
 	}
+  .work-item p{
+    padding: 15px 5px;
+  }
     .advantage{
       padding: 0 10px;
     }
@@ -290,6 +296,9 @@
   .mfp-close{
     top: 0px;
     right: 0x;
+  }
+  .mfp-close:active{
+    top: 0px;
   }
   .popup input{
     @include placeholder{

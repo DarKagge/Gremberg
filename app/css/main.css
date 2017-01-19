@@ -78,9 +78,7 @@ body textarea:required:valid {
   margin-top: 47px;
   background-color: #edecec;
   margin-bottom: 25px; }
-  .all-works div[class^=work-item]:nth-child(3) {
-    margin-right: 0; }
-  .all-works div:nth-child(7) {
+  .all-works div[class^=work-item]:nth-child(3n) {
     margin-right: 0; }
 
 .work-item {
@@ -136,14 +134,12 @@ body textarea:required:valid {
   padding-right: 0px; }
 
 .suggestion {
-  position: absolute;
-  right: 30px;
   z-index: 55;
-  bottom: 2.2%;
   background-color: #eadac7;
   border: 8px solid #d6b87d;
   max-width: 775px;
-  width: 100%; }
+  width: 100%;
+  margin: 0 auto; }
   .suggestion form {
     text-align: center; }
     .suggestion form h2 {
@@ -231,10 +227,11 @@ body textarea:required:valid {
   height: 62px;
   text-align: center;
   margin: 0 auto;
-  padding-top: 5px; }
-  .timer span {
-    font-weight: bold;
-    font-family: MyriadProBoldCond; }
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: bold;
+  font-family: MyriadProBoldCond;
+  color: #fff; }
 
 .progress {
   text-align: center;
@@ -593,6 +590,15 @@ footer {
   right: 17px;
   top: 17px; }
 
+body .popup .error {
+  border: 2px solid red !important; }
+
+.popup10 .mfp-close {
+  display: none; }
+
+.mfp-close:active {
+  top: 17px; }
+
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1049px) {
@@ -748,7 +754,9 @@ footer {
 @media only screen and (max-width: 460px) {
   .mfp-close {
     top: 5px;
-    right: 5px; } }
+    right: 5px; }
+  .mfp-close:active {
+    top: 5px; } }
 
 @media only screen and (max-width: 450px) {
   .key h1 {
@@ -757,9 +765,12 @@ footer {
   .searchers div {
     margin: 0; }
   body .work-item {
-    margin: 25px auto !important; }
+    margin: 25px auto !important;
+    padding: 10px 0; }
     body .work-item img {
       width: 100%; }
+  .work-item p {
+    padding: 15px 5px; }
   .advantage {
     padding: 0 10px; } }
 
@@ -799,6 +810,8 @@ footer {
   .mfp-close {
     top: 0px;
     right: 0x; }
+  .mfp-close:active {
+    top: 0px; }
   .popup input::-webkit-input-placeholder {
     font-size: 8vw; }
   .popup input::-moz-placeholder {

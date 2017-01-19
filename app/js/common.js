@@ -123,7 +123,24 @@ $(function() {
 
 $("a[href*='#']").mPageScroll2id();
 
+$(".popup10-close").on("click",function(){
+	$.magnificPopup.close();
+});
+
+setTimeout(function(){
+	$("a[href='#popup10']").click();
+}, 1000);
 
 
 
+var timerDate = new Date();
+var timerMilliseconds = timerDate.getTime();
+timerMilliseconds += (24 * 60 * 60 * 1000);
+timerDate = new Date(timerMilliseconds);
+var timerMonth = parseInt(timerDate.getMonth()  + 1, 10);
 
+$(".timer").countdown(timerDate.getFullYear() + '/' + timerMonth + '/' + timerDate.getDate() + ' 00:00:00')
+	.on('update.countdown', function(event) {
+		var format = '%H:%M:%S';
+		$(this).html(event.strftime(format));
+});
